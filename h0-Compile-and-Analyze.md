@@ -11,7 +11,7 @@ int main() {
   printf("hello world\n");
 }
 ````
-Käytetään gcc luotuun c ohjemlaan.
+Käytetään gcc luotuun c tiedostoon.
 ````bash
 gcc hello_world.c
 ````
