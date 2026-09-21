@@ -2,6 +2,21 @@
 
 ## x)
 
+OWASP: OWASP Top 10:
+- Pääsynhallinta pettää, jos järjestelmä ei kunnolla varmenna, onko käyttäjällä todellisuudessa oikeus pyytämäänsä tietoon tai toimintoon.
+- Puutteellinen pääsynhallinta on edelleen kyberturvallisuuden yleisin ja vakavin web-haavoittuvuus OWASP Top 10 -listauksessa vuonna 2025.
+
+Karvinen 2023:
+- ffuf-työkalua käyetetään verkkosivujen piilotettujen hakemistojen ja tiedostojen etsimiseen.
+- Piilosivujen etsimisessä käytetään valmiita sanakirjoja, joita työkalu käy automaattisesti läpi testaten mahdollisia osoitteita.
+  
+PortSwigger:
+- Access control määrittää, mitä resursseja ja toimintoja vahvistetut käyttäjät saa käyttää.
+- Suojaukset voivat pettää esimerkiksi silloin, kun oikeuksia hallitaan manipuloitavissa olevilla parametreilla, tai kun piilotettujen sivujen oletetaan olevan turvassa vain siksi, ettei niihin ole suoria linkkejä.
+
+Karvinen 2006:
+- Raportin tulee olla niin tarkka, että kuka tahansa voi toistaa kokeen samassa ympäristössä ja saada saman tuloksen.
+- Kerro tarkalleen, mitä komentoja annoit, mitä tapahtui ja millä testillä totesit onnistumisen.
 ## a)
 
 Ladataan zip ja puretaan se.
@@ -66,9 +81,15 @@ Kun sivia testataan uudelleen samalla tavalla se ei anna enää admin salasanaa.
 <img width="680" height="382" alt="image" src="https://github.com/user-attachments/assets/fe2c6dca-56da-4d63-b310-7cc18137e0f5" />
 
 
-Lähteet:
+## Lähteet:
+
+OWASP: OWASP Top 10: https://top10.owasp.org/2025/A01_2025-Broken_Access_Control/
 
 Hack'n Fix: https://terokarvinen.com/hack-n-fix/
+
+PortSwigger: https://portswigger.net/web-security/access-control
+
+Raportin kirjoittaminen: https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
 
 Find Hidden Web Directories - Fuzz URLs with ffuf: https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/
 
