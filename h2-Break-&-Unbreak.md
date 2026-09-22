@@ -153,7 +153,7 @@ Voimme aloittaa tutkimalla sitä ja huomaamme käyttäjän luomisen ja kirjautum
 
 <img width="648" height="246" alt="image" src="https://github.com/user-attachments/assets/fa1efa68-51a0-45f5-a379-ac40f8f96a74" />
 
-Seuraavaksi voimme aloitaa ffuf työkalun käytön, hetken selailun jälkeen huomaamme että komento ``ffuf -w common.txt -u http://127.0.0.1:8000/FUZZ -t 10`` antaa meille vastauksen.
+Seuraavaksi voimme aloitaa ffuf työkalun käytön, se antaa meille vastauksen aika nopeasti. 
 
 <img width="1878" height="1032" alt="image" src="https://github.com/user-attachments/assets/e9287b5d-fd40-4059-ace9-61c3a72e39c8" />
 
